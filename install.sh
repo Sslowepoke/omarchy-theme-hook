@@ -16,7 +16,7 @@ chmod +x $HOME/.local/share/omarchy/bin/theme-hook-update
 mv -f /tmp/theme-hook/theme-set $HOME/.config/omarchy/hooks/
 
 mkdir -p $HOME/.config/omarchy/hooks/theme-set.d/
-mv -f /tmp/theme-hook/theme-set.d/* $HOME/.config/omarchy/hooks/theme-set.d/
+mv -f /tmp/theme-hook/theme-set.d/40-zen.sh $HOME/.config/omarchy/hooks/theme-set.d/
 
 rm -rf /tmp/theme-hook
 
