@@ -8,7 +8,7 @@ omarchy-show-logo
 
 rm -rf /tmp/theme-hook/
 
-git clone https://github.com/imbypass/omarchy-hook-theme-set-ex.git /tmp/theme-hook
+git clone https://github.com/Sslowepoke/omarchy-theme-hook.git /tmp/theme-hook
 
 mv -f /tmp/theme-hook/install.sh $HOME/.local/share/omarchy/bin/theme-hook-update
 chmod +x $HOME/.local/share/omarchy/bin/theme-hook-update
